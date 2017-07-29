@@ -66,9 +66,8 @@
       opacity: .9; 
     }
 
-    .play-button {
+    .for-play-button {
     color: white;
-    font-size: 87px;
     margin-left: 50%;
     text-align: center;
     top: 50%;
@@ -77,6 +76,10 @@
     right: 0;
     position: absolute;
     margin: auto;
+    }
+    .play-button {
+      font-size: 87px;
+      cursor: pointer;
     }
     nav {
       position: absolute;
@@ -139,7 +142,9 @@
       <div class="circle"></div>
       <div class="right-overlay"></div>
     </div>
-    <i class="material-icons play-button">play_circle_filled</i>
+    <div class="for-play-button">
+      <i class="material-icons play-button">play_circle_filled</i>
+    </div>
   </div>
 </body>
 </html>
